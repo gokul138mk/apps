@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="./css/login.css">
+
+</head>
+<body>
+    <form class="login" action="dashboard.html" onsubmit="validateForm(event)">
+        <h2>Login Page!</h2>
+        <br>
+        <br>
+
+        <label for="email">username:</label>
+        <input type="text" id="username" name="username">
+        <span id="usernameError" class="error"></span><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <span id="emailError" class="error"></span><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone">
+        <span id="phoneError" class="error"></span><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <span id="passwordError" class="error"></span><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        <span id="confirmPasswordError" class="error"></span><br>
+
+        <input type="submit" value="Submit">
+
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="register.html">sign up</a>
+        </div>
+      </form>
+
+      <script src="./js/login.js"></script>
+
+   
+</body>
+</html>
